@@ -1,9 +1,11 @@
 var playlist = new Object({ artistName: 'songTitles' });
 
-function updatePlaylist(obj, string, songTitle)
+function updatePlaylist(playlist, artistName, songTitle)
 {
 
 
 
-  return playlist;
+  return  return Object.assign({}, obj, { [key]: value });
 }
+
+function removeFromPlaylist(playlist, )
